@@ -1,0 +1,362 @@
+/* line 17, ../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../sass/styles.scss */
+body {
+  background: #DEDEDE;
+}
+
+/* line 6, ../sass/styles.scss */
+a, input, button {
+  outline: none !important;
+  text-decoration: none;
+}
+
+/* line 7, ../sass/styles.scss */
+p {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+/* line 9, ../sass/styles.scss */
+#page {
+  width: 925px;
+  margin: 0 auto;
+  background: #ffffff;
+  -webkit-box-shadow: 5px 3px 5px 0px rgba(0, 0, 0, 0.5), -5px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 3px 5px 0px rgba(0, 0, 0, 0.5), -5px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 3px 5px 0px rgba(0, 0, 0, 0.5), -5px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* line 16, ../sass/styles.scss */
+#logo {
+  position: absolute;
+  top: 70px;
+  left: 72px;
+}
+/* line 21, ../sass/styles.scss */
+#logo h1 a {
+  display: block;
+  width: 358px;
+  height: 55px;
+  background: url("../img/logo.png") no-repeat left;
+}
+
+/* Header */
+/* line 31, ../sass/styles.scss */
+#header {
+  height: 145px;
+  position: relative;
+}
+/* line 34, ../sass/styles.scss */
+#header ul.menu {
+  position: absolute;
+  bottom: 0;
+  left: 72px;
+  vertical-align: center;
+  background: #E4F9FD;
+}
+/* line 40, ../sass/styles.scss */
+#header ul.menu li {
+  float: left;
+  line-height: 18px;
+}
+/* line 43, ../sass/styles.scss */
+#header ul.menu li.active {
+  background: #ffffff;
+}
+/* line 45, ../sass/styles.scss */
+#header ul.menu li.active:hover {
+  background: #ffffff;
+}
+/* line 48, ../sass/styles.scss */
+#header ul.menu li:first-child a {
+  padding-left: 0;
+  border: none;
+}
+/* line 50, ../sass/styles.scss */
+#header ul.menu li:hover {
+  background: #BCFBFD;
+}
+/* line 51, ../sass/styles.scss */
+#header ul.menu li a {
+  margin: 1px 0;
+  padding: 0 10px;
+  border-left: 1px solid #85999d;
+  display: inline-block;
+  line-height: 18px;
+  color: #85999D;
+  font-size: 17px;
+  font-family: "Special Elite", Arial, cursive;
+}
+
+/* Body */
+/* line 67, ../sass/styles.scss */
+#body .icons {
+  height: 635px;
+  position: relative;
+}
+/* line 70, ../sass/styles.scss */
+#body .icons img {
+  position: absolute;
+}
+/* line 71, ../sass/styles.scss */
+#body .icons .sofa {
+  top: 209px;
+  left: 180px;
+}
+/* line 72, ../sass/styles.scss */
+#body .icons .icon-1 {
+  top: 163px;
+  left: 145px;
+}
+/* line 73, ../sass/styles.scss */
+#body .icons .icon-2 {
+  top: 60px;
+  left: 212px;
+}
+/* line 74, ../sass/styles.scss */
+#body .icons .icon-3 {
+  top: 94px;
+  left: 271px;
+}
+/* line 75, ../sass/styles.scss */
+#body .icons .icon-4 {
+  top: 40px;
+  left: 353px;
+}
+/* line 76, ../sass/styles.scss */
+#body .icons .icon-5 {
+  top: 67px;
+  left: 447px;
+}
+/* line 77, ../sass/styles.scss */
+#body .icons .icon-6 {
+  top: 116px;
+  left: 397px;
+}
+/* line 78, ../sass/styles.scss */
+#body .icons .icon-7 {
+  top: 91px;
+  left: 522px;
+}
+/* line 79, ../sass/styles.scss */
+#body .icons .icon-8 {
+  top: 32px;
+  left: 618px;
+}
+/* line 80, ../sass/styles.scss */
+#body .icons .icon-9 {
+  top: 164px;
+  left: 668px;
+}
+/* line 82, ../sass/styles.scss */
+#body .content {
+  margin: 0 70px;
+  position: relative;
+  overflow: hidden;
+}
+/* line 86, ../sass/styles.scss */
+#body .content .sofa {
+  position: absolute;
+  left: -370px;
+  top: 60px;
+}
+/* line 91, ../sass/styles.scss */
+#body .content .about-photo {
+  position: absolute;
+  top: 48px;
+  left: 162px;
+}
+/* line 96, ../sass/styles.scss */
+#body .content .icon {
+  position: absolute;
+  top: 36px;
+  left: 299px;
+}
+/* line 101, ../sass/styles.scss */
+#body .content .block-right {
+  float: right;
+  width: 310px;
+  margin: 15px 5px 65px 0;
+}
+/* line 105, ../sass/styles.scss */
+#body .content .block-right.alternative {
+  width: 405px;
+  margin: 25px -10px 60px 0;
+}
+/* line 106, ../sass/styles.scss */
+#body .content .block-right h3 {
+  margin-top: 35px;
+  color: #85999D;
+  font-family: "Special Elite", Arial, cursive;
+}
+/* line 111, ../sass/styles.scss */
+#body .content .block-right p {
+  margin-top: 10px;
+  line-height: 15px;
+}
+/* line 114, ../sass/styles.scss */
+#body .content .block-right p.team {
+  margin-top: 40px;
+}
+/* line 119, ../sass/styles.scss */
+#body .content .block-right ul li {
+  font-family: Arial, sans-serif;
+  line-height: 15px;
+  font-size: 12px;
+}
+/* line 125, ../sass/styles.scss */
+#body .content .block-right a {
+  color: #343399;
+}
+/* line 127, ../sass/styles.scss */
+#body .content .block-right a:hover {
+  text-decoration: underline;
+}
+/* line 130, ../sass/styles.scss */
+#body .content hr {
+  margin: 75px 0 0 0;
+  float: left;
+  height: 20px;
+  width: 265px;
+  border: 0;
+  background: #E4F9FD;
+}
+/* line 137, ../sass/styles.scss */
+#body .content hr.alt {
+  margin-top: 20px;
+}
+/* line 139, ../sass/styles.scss */
+#body .content .clients {
+  width: 515px;
+  float: right;
+  margin-top: 10px;
+}
+/* line 143, ../sass/styles.scss */
+#body .content .clients .block-client {
+  margin-top: 45px;
+  float: left;
+}
+/* line 146, ../sass/styles.scss */
+#body .content .clients .block-client .info {
+  float: right;
+  width: 400px;
+}
+/* line 149, ../sass/styles.scss */
+#body .content .clients .block-client .info h4 {
+  color: #85999D;
+  font-family: "Special Elite", Arial, cursive;
+}
+/* line 153, ../sass/styles.scss */
+#body .content .clients .block-client .info p {
+  margin-top: 35px;
+  line-height: 15px;
+}
+/* line 157, ../sass/styles.scss */
+#body .content .clients .block-client .info .link {
+  margin-top: 50px;
+  background: #E4F9FD;
+  text-align: right;
+}
+/* line 161, ../sass/styles.scss */
+#body .content .clients .block-client .info .link a {
+  padding-left: 15px;
+  background: #ffffff;
+  display: inline-block;
+  color: #000000;
+  font-size: 16px;
+}
+/* line 167, ../sass/styles.scss */
+#body .content .clients .block-client .info .link a:hover {
+  text-decoration: underline;
+}
+/* line 171, ../sass/styles.scss */
+#body .content .clients .block-client .company-logo {
+  width: 115px;
+  float: left;
+}
+/* line 174, ../sass/styles.scss */
+#body .content .clients .block-client .company-logo img {
+  float: right;
+}
+
+/* Footer */
+/* line 184, ../sass/styles.scss */
+#footer {
+  margin-top: 120px;
+  height: 120px;
+  text-align: center;
+  font-family: "Special Elite", Arial, cursive;
+  font-size: 12px;
+}
+/* line 190, ../sass/styles.scss */
+#footer.alt {
+  margin-top: 235px;
+}
+/* line 191, ../sass/styles.scss */
+#footer.alternative {
+  margin-top: 0;
+}
