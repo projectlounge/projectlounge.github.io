@@ -1,0 +1,4 @@
+# Ignore RubyMine IDE files
+.idea
+.sass-cache
+/css/*.css

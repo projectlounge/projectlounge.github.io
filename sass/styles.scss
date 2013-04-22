@@ -1,0 +1,193 @@
+@import "compass/reset";
+@import "compass";
+
+html {}
+body { background: #DEDEDE; }
+a, input, button { outline: none !important; text-decoration: none; }
+p { font-family: Arial, sans-serif; font-size: 12px; }
+
+#page {
+  width: 925px;
+  margin: 0 auto;
+  background: #ffffff;
+  @include box-shadow(5px 3px 5px 0px rgba(0, 0.1, 0.2, 0.5), -5px 3px 5px 0px rgba(0, 0.1, 0.2, 0.5));
+}
+
+#logo {
+  position: absolute;
+  top: 70px;
+  left: 72px;
+  h1 {
+    a {
+      display: block;
+      width: 358px;
+      height: 55px;
+      background: url("../img/logo.png") no-repeat left;
+    }
+  }
+}
+
+/* Header */
+#header {
+  height: 145px;
+  position: relative;
+  ul.menu {
+    position: absolute;
+    bottom: 0;
+    left: 72px;
+    vertical-align: center;
+    background: #E4F9FD;
+    li {
+      float: left;
+      line-height: 18px;
+      &.active {
+        background: #ffffff;
+        &:hover { background: #ffffff; }
+      }
+      &:first-child {
+        a { padding-left: 0; border: none; }
+      }
+      &:hover { background: #BCFBFD; }
+      a {
+        margin: 1px 0;
+        padding: 0 10px;
+        border-left: 1px solid #85999D;
+        display: inline-block;
+        line-height: 18px;
+        color: #85999D;
+        font-size: 17px;
+        font-family: 'Special Elite', Arial, cursive;
+      }
+    }
+  }
+}
+
+/* Body */
+#body {
+  .icons {
+    height: 635px;
+    position: relative;
+    img { position: absolute; }
+    .sofa { top: 209px; left: 180px;  }
+    .icon-1 { top: 163px; left: 145px; }
+    .icon-2 { top: 60px; left: 212px; }
+    .icon-3 { top: 94px; left: 271px; }
+    .icon-4 { top: 40px; left: 353px;  }
+    .icon-5 { top: 67px; left: 447px; }
+    .icon-6 { top: 116px; left: 397px; }
+    .icon-7 { top: 91px; left: 522px; }
+    .icon-8 { top: 32px; left: 618px; }
+    .icon-9 { top: 164px; left: 668px; }
+  }
+  .content {
+    margin: 0 70px;
+    position: relative;
+    overflow: hidden;
+    .sofa {
+      position: absolute;
+      left: -370px;
+      top: 60px;
+    }
+    .about-photo {
+      position: absolute;
+      top: 48px;
+      left: 162px;
+    }
+    .icon {
+      position: absolute;
+      top: 36px;
+      left: 299px;
+    }
+    .block-right {
+      float: right;
+      width: 310px;
+      margin: 15px 5px 65px 0;
+      &.alternative { width: 405px; margin: 25px -10px 60px 0; }
+      h3 {
+        margin-top: 35px;
+        color: #85999D;
+        font-family: 'Special Elite', Arial, cursive;
+      }
+      p {
+        margin-top: 10px;
+        line-height: 15px;
+        &.team {
+          margin-top: 40px;
+        }
+      }
+      ul {
+        li {
+          font-family: Arial, sans-serif;
+          line-height: 15px;
+          font-size: 12px;
+        }
+      }
+      a {
+        color: #343399;
+        &:hover { text-decoration: underline; }
+      }
+    }
+    hr {
+      margin: 75px 0 0 0;
+      float: left;
+      height: 20px;
+      width: 265px;
+      border: 0;
+      background: #E4F9FD;
+      &.alt { margin-top: 20px; }
+    }
+    .clients {
+      width: 515px;
+      float: right;
+      margin-top: 10px;
+      .block-client {
+        margin-top: 45px;
+        float: left;
+        .info {
+          float: right;
+          width: 400px;
+          h4 {
+            color: #85999D;
+            font-family: 'Special Elite', Arial, cursive;
+          }
+          p {
+            margin-top: 35px;
+            line-height: 15px;
+          }
+          .link {
+            margin-top: 50px;
+            background:#E4F9FD;
+            text-align: right;
+            a {
+              padding-left: 15px;
+              background: #ffffff;
+              display: inline-block;
+              color: #000000;
+              font-size: 16px;
+              &:hover { text-decoration: underline; }
+            }
+          }
+        }
+        .company-logo {
+          width: 115px;
+          float: left;
+          img {
+            float: right;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Footer */
+#footer {
+  margin-top: 120px;
+  height: 120px;
+  text-align: center;
+  font-family: 'Special Elite', Arial, cursive;
+  font-size: 12px;
+  &.alt  { margin-top: 235px; }
+  &.alternative { margin-top: 0; }
+}
+
