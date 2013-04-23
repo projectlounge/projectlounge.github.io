@@ -245,7 +245,7 @@ p {
 /* line 105, ../sass/styles.scss */
 #body .content .block-right.alternative {
   width: 405px;
-  margin: 25px -10px 60px 0;
+  margin: 25px 0 60px 0;
 }
 /* line 106, ../sass/styles.scss */
 #body .content .block-right h3 {
